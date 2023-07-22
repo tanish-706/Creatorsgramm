@@ -1,0 +1,86 @@
+<?php include("include/header.php"); ?>
+<style>
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+</style>
+<section class="full-height relative no-top no-bottom vertical-center" data-bgimage="url(images/background/6.jpg) top" data-stellar-background-ratio=".5">
+    <div class="overlay-gradient t50">
+        <div class="center-y relative">
+            <div class="container">
+                <div class="row align-items-center bg-color mt-100 my-3">
+
+                    <div class="col-lg-12 mx-auto wow fadeIn" data-wow-delay=".5s">
+                        <div class="box-rounded padding40">
+                            <h6 class="noti_h6 py-3">Management Sessions</h6>
+                            <div>
+                                <p>Create a new Management Session you can share with a trusted person to grant them access to your account.</p>
+                                <p>Note: By default Management Sessions have access to most of your account. below you can uncheck certain permissions you do not want your manager to have access to:</p>
+                            </div>
+                            <div class="session_check d-flex justify-content-between">
+                                <p class="sess_p my-1">Create Posts</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                            </div>
+                            <div class="session_check d-flex justify-content-between">
+                                <p class="sess_p my-1">Send Messages</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                            </div>
+                            <div class="session_check d-flex justify-content-between">
+                                <p class="sess_p my-1">Request Payouts</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                            </div>
+                            <div class="session_check d-flex justify-content-between">
+                                <p class="sess_p my-1">Subscribe to Creators</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p>The following list of actions are always blocked for security reasons<p>
+                                <ul type="square">
+                                    <li>Viewing, creating or updating management sessions</li>
+                                    <li>Creating or deleting Payout Methods</li>
+                                    <li>Viewing active account sessions in settings</li>
+                                    <li>Closing active account sessions in settings</li>
+                                    <li>Deleting your account</li>
+                                </ul>
+                            </div>
+                            <div class="mt-4">
+                                <p>By creating a management session, you acknowledge the following. <p>
+                                <ul type="square">
+                                    <li> You are responsible for everything someone</li>
+                                    <li>Creating or deleting Payout Methods</li>
+                                    <li>Viewing active account sessions in settings</li>
+                                    <li>Closing active account sessions in settings</li>
+                                    <li>Deleting your account</li>
+                                </ul>
+                            </div>
+                            <div class="field-set">
+                                       
+                                        <a href="#" class="btn-main btn-fullwidth color-2 py-3 rounded-3 button_page">Create</a> 
+                                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+</section>
+<?php include("include/footer.php"); ?>
